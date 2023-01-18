@@ -1,0 +1,7 @@
+<div class="container text-center">
+<h1>MOSTRAR USUARIOS</h1>
+<button (click)="mostraruser()" class="btn btn-danger">Mostrar</button>
+<div *ngFor="let persona of usuarios" >
+    <p>{{persona.name}}</p>
+</div>
+</div>
