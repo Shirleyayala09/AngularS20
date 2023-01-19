@@ -1,1 +1,20 @@
-<p>pagina2 works!</p>
+<div class="container">
+    <div class="row ">
+    <div class="col-md-4 offset-md-4  py-4">
+    <h1 class="text-center">Tarea 1</h1>
+    <form [formGroup]="loginForm" (ngSubmit)="onSubmit()">
+    <div class="mb-3">
+    <label for="username" class="form-label">Username</label>
+    <input type="text" class="form-control" id="username" name="username" formControlName="username">
+    </div>
+    <div class="mb-3">
+    <label for="password" class="form-label">Password</label>
+    <input type="password" class="form-control" id="password" formControlName="username">
+    </div>
+    <div class="bm-3 text-center">
+    <button type="submit" class="btn btn-danger">Login</button>
+    </div>
+    </form>
+    </div>
+    </div>
+    </div>
